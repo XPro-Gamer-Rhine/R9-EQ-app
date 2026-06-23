@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.1.0
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.1.1
 
 **[⬇︎ Download the latest DMG](../../releases/latest)** · macOS 14.4+
 
@@ -77,16 +77,16 @@ engineering research.
   you can share builds with others.
 
 ### Design & system integration
-- **Notch-native drop-down** — on notch MacBooks the panel pours down out of the
-  notch with a fast, smooth Apple-style spring (a GPU layer-mask reveal — the
-  content is laid out once and never re-flows, so there's no jank) and rolls back
-  up on close, with rounded bottom corners that match the notch radius.
-- **Menu-bar mode** — on Macs without a notch (Mac mini, iMac, Studio displays,
-  pre-notch MacBooks) an **R9 menu-bar icon** appears; click it to open or close
-  the panel, which floats just below the menu bar as a fully-rounded popover. A
-  built-in toggle (Theme menu → *App-Bar Mode*) previews this layout on any machine.
-- **Hover to open, move away to close** — the notch panel opens on hover and
-  closes reliably the moment the pointer leaves (no need to wiggle the mouse).
+- **Menu-bar mode (default)** — an **R9 menu-bar icon** appears in your menu bar
+  on every Mac; click it to open or close the panel, which floats just below the
+  bar as a fully-rounded popover. It's the default because it's easy to find on
+  any machine (and it's the only sensible affordance on Macs without a notch —
+  Mac mini, iMac, Studio displays, pre-notch MacBooks).
+- **Notch drop-down (opt-in on notch MacBooks)** — turn off *Menu-Bar Mode*
+  (Theme menu → **Layout**) and the panel pours down out of the notch instead,
+  with a fast, smooth Apple-style spring (a GPU layer-mask reveal — the content is
+  laid out once and never re-flows, so there's no jank), rounded bottom corners
+  matching the notch radius, and opens on hover / closes when the pointer leaves.
 - **Four themes**, applied to both the notch panel and the VDC window:
   - **Liquid Glass** — translucent glossy glass.
   - **Frosted Glass** — heavier matte frost.
@@ -143,20 +143,21 @@ the first click — and why it needs the **System Audio Recording** permission.
 4. Approve the **System Audio Recording** prompt (System Settings → Privacy &
    Security → System Audio Recording). This is required — without it the EQ
    produces silence.
-5. Open the panel (hover the notch, or click the **R9 menu-bar icon** on Macs
-   without a notch) and press the power button to start the EQ.
+5. Click the **R9 menu-bar icon** (it appears in your menu bar by default on every
+   Mac) to open the panel, then press the power button to start the EQ.
 
 ---
 
 ## Usage
 
-- **Open the panel** — hover the notch (notch Macs) or click the **R9 menu-bar
-  icon** (Macs without a notch). Move the pointer away to close.
+- **Open the panel** — click the **R9 menu-bar icon** (default). Click it again,
+  or click away, to close.
 - **Power** — top-left power button starts/stops the EQ.
 - **Curve vs sliders** — toggle with the waveform icon.
 - **Virtual Driver** — the cube icon opens the VDC studio.
 - **Output device / Theme** — the headphones and palette menus on the right.
-- **App-Bar Mode** — Theme menu → *App-Bar Mode* to preview the notch-less layout.
+- **Layout** — Theme menu → **Layout → Menu-Bar Mode**. On a notch MacBook, turn
+  it off to use the notch drop-down instead (hover the notch to open).
 
 ---
 
