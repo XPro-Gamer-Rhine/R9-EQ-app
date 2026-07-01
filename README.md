@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.1.2
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.1.3
 
 **[⬇︎ Download the latest DMG](../../releases/latest)** · macOS 14.4+
 
@@ -135,22 +135,29 @@ the first click — and why it needs the **System Audio Recording** permission.
 
 The DMG is a **universal** build — it runs on both **Apple Silicon and Intel** Macs.
 
-1. Download **`R9-EQ.dmg`** from the [latest release](../../releases/latest).
-2. Open it and drag **R9-EQ** to **Applications**.
-3. **First launch** — this build is ad-hoc signed (not yet notarized), so
-   Gatekeeper blocks a normal double-click. On macOS 15 Sequoia / 26 Tahoe the old
-   *right-click → Open* trick no longer works, so use one of these instead:
-   - **Easiest:** double-click **`Open R9-EQ (first run).command`** (included in the
-     DMG). Click **Open** when Terminal asks. It clears the download flag and
-     launches R9-EQ. *(One-time — normal double-click works afterwards.)*
-   - **GUI only:** double-click R9-EQ once (it gets blocked), then System Settings →
-     **Privacy & Security** → scroll down → **Open Anyway** → **Open**.
-   - **Terminal:** `xattr -dr com.apple.quarantine /Applications/R9-EQ.app`
-4. Approve the **System Audio Recording** prompt (System Settings → Privacy &
-   Security → System Audio Recording). This is required — without it the EQ
-   produces silence.
-5. Click the **R9 menu-bar icon** (it appears in your menu bar by default on every
-   Mac) to open the panel, then press the power button to start the EQ.
+> **Don't just double-click the app.** R9-EQ is ad-hoc signed (not notarized), so
+> a downloaded copy is quarantined by macOS. On **macOS 15 Sequoia / 26 Tahoe**,
+> double-clicking the `.app` runs a throwaway copy that shows only the Mic prompt
+> and then **moves R9-EQ to the Trash** — a macOS security policy, not an app bug.
+> The included installer clears that flag *before* launch, so it just works.
+
+**Recommended — one double-click, every macOS version:**
+
+1. Download **`R9-EQ.dmg`** from the [latest release](../../releases/latest) and open it.
+2. Double-click **`Double-click to install R9-EQ.command`** inside the DMG, and
+   click **Open** when Terminal asks. It copies R9-EQ into Applications, clears the
+   quarantine flag, and launches it. *(One-time — it opens like any app afterwards.)*
+3. Approve the **System Audio Recording** prompt (System Settings → Privacy &
+   Security → System Audio Recording). Required — without it the EQ is silent.
+4. Click the **R9 menu-bar icon** and press the power button to start the EQ.
+
+**Prefer the GUI?** Drag R9-EQ to Applications, double-click it once (it gets
+blocked), then System Settings → **Privacy & Security** → scroll down → **Open
+Anyway** → **Open**. *(On macOS 15+ use the installer or Open Anyway — the OS
+trashes a plain double-click before the app can do anything.)*
+
+> A plain double-click can only "just work" with **Developer ID + notarization**
+> (a paid Apple Developer account).
 
 ---
 
