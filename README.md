@@ -11,7 +11,13 @@ hybrid IEM/headphone driver stacks.
 
 > Created by **Rhineul Islam** · `com.rhine.EQ` · v0.1.3
 
-**[⬇︎ Download the latest DMG](../../releases/latest)** · macOS 14.4+
+**Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/XPro-Gamer-Rhine/R9-EQ-app/main/install.sh | bash
+```
+
+*(or [⬇︎ download the DMG](../../releases/latest) — see [Install](#install) for the extra steps it needs)*
 
 ---
 
