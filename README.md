@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.3.0
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.3.1
 
 **Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
 
