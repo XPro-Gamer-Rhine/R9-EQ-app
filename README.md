@@ -133,31 +133,41 @@ the first click — and why it needs the **System Audio Recording** permission.
 
 ## Install
 
-The DMG is a **universal** build — it runs on both **Apple Silicon and Intel** Macs.
+**Recommended — paste this one line into Terminal** (⌘-Space, type "Terminal"):
 
-> **Don't just double-click the app.** R9-EQ is ad-hoc signed (not notarized), so
-> a downloaded copy is quarantined by macOS. On **macOS 15 Sequoia / 26 Tahoe**,
-> double-clicking the `.app` runs a throwaway copy that shows only the Mic prompt
-> and then **moves R9-EQ to the Trash** — a macOS security policy, not an app bug.
-> The included installer clears that flag *before* launch, so it just works.
+```bash
+curl -fsSL https://raw.githubusercontent.com/XPro-Gamer-Rhine/R9-EQ-app/main/install.sh | bash
+```
 
-**Recommended — one double-click, every macOS version:**
+That downloads the latest release, installs it into Applications, and launches
+it — **no security warnings, nothing blocked, works on every Mac** (Apple Silicon
+and Intel, macOS 14.4+). Then:
 
-1. Download **`R9-EQ.dmg`** from the [latest release](../../releases/latest) and open it.
-2. Double-click **`Double-click to install R9-EQ.command`** inside the DMG, and
-   click **Open** when Terminal asks. It copies R9-EQ into Applications, clears the
-   quarantine flag, and launches it. *(One-time — it opens like any app afterwards.)*
-3. Approve the **System Audio Recording** prompt (System Settings → Privacy &
+1. Approve the **System Audio Recording** prompt (System Settings → Privacy &
    Security → System Audio Recording). Required — without it the EQ is silent.
-4. Click the **R9 menu-bar icon** and press the power button to start the EQ.
+2. Click the **R9 menu-bar icon** (top-right) and press the power button.
 
-**Prefer the GUI?** Drag R9-EQ to Applications, double-click it once (it gets
+<details>
+<summary><strong>Why Terminal? And how to install from the DMG instead</strong></summary>
+
+R9-EQ is free and ad-hoc signed — there is no paid Apple Developer account behind
+it, so it isn't notarized. When a **browser** downloads it, macOS quarantines it,
+and on **macOS 15 Sequoia / 26 Tahoe** double-clicking the `.app` runs a throwaway
+copy that shows only the Mic prompt and then **moves R9-EQ to the Trash** — an
+Apple security policy, not an app bug. A `curl` download carries no quarantine
+flag, so the Terminal installer never meets Gatekeeper at all. That's why it's
+the recommended path.
+
+**From the DMG instead:** download **`R9-EQ.dmg`** from the
+[latest release](../../releases/latest), open it, and double-click
+**`Double-click to install R9-EQ.command`** (click **Open** when Terminal asks).
+It installs R9-EQ into Applications, clears the quarantine flag, and launches it.
+
+**GUI-only fallback:** drag R9-EQ to Applications, double-click it once (it gets
 blocked), then System Settings → **Privacy & Security** → scroll down → **Open
-Anyway** → **Open**. *(On macOS 15+ use the installer or Open Anyway — the OS
-trashes a plain double-click before the app can do anything.)*
+Anyway** → **Open**.
 
-> A plain double-click can only "just work" with **Developer ID + notarization**
-> (a paid Apple Developer account).
+</details>
 
 ---
 
