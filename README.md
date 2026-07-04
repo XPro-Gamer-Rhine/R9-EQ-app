@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.1.3
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.2.0
 
 **Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
 
@@ -61,7 +61,10 @@ Every theme applies to **both** the notch panel and the VDC window.
   Music, Spotify, games, calls).
 - **Response-curve editor** — drag the live frequency curve directly, or use the
   vertical band sliders.
-- **Presets** — Flat, Bass Boost, Vocal, Treble, V-Shaped, Podcast. The active
+- **Presets** — Flat, Bass Boost, Vocal, Treble, V-Shaped, Podcast, plus a
+  **Genre menu** (Rock, Pop, Hip-Hop, EDM, R&B, Jazz, Classical, Metal, Acoustic,
+  Lo-Fi) and an **IEM menu** with tunings inspired by high-end in-ear monitors
+  (Harman IEM Target, IER-Z1R, IE 900, Blessing 3, U12t, Andromeda). The active
   preset is highlighted; any manual edit marks the curve as custom.
 - **Profiles** — save, name, switch, import and export your own EQ profiles.
 - **Per-app EQ** — System-wide mode, or Per-App mode that auto-loads a saved curve
@@ -81,6 +84,13 @@ engineering research.
 - **Export** — a full PDF report (colored per-driver curves + combined response +
   tuning table) and CSV data. **Import/export the whole configuration** as JSON so
   you can share builds with others.
+
+### Onboarding
+- **First-run tutorial** — on first launch R9-EQ opens itself and spotlights each
+  control (power, sliders, presets, profiles, per-app mode, VDC, themes) so new
+  users always find it. Replay anytime: theme menu → Help → Show Tutorial.
+- **Double-click re-opens** — opening the app again in Finder/Dock brings out the
+  panel.
 
 ### Design & system integration
 - **Menu-bar mode (default)** — an **R9 menu-bar icon** appears in your menu bar
