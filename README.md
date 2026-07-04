@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.2.0
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.3.0
 
 **Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
 
@@ -81,6 +81,12 @@ engineering research.
   manufacturers bin and tune duplicate drivers).
 - **Depth modelling** — front/rear driver placement shaped like physical stacks.
 - **Live preview** — apply the virtual driver to the real EQ and listen.
+- **IEM Library — load a real IEM** — search 1,000+ real in-ear monitors (data
+  derived from crinacle.com's IEM Ranking List) and rebuild any model's actual
+  driver setup with one click, voiced by its published sound signature and
+  technical grade. Fully editable afterwards.
+- **First-open tour** — the studio walks you through itself the first time you
+  open it (replayable from the ? menu).
 - **Export** — a full PDF report (colored per-driver curves + combined response +
   tuning table) and CSV data. **Import/export the whole configuration** as JSON so
   you can share builds with others.
