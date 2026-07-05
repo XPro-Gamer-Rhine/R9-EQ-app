@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.3.2
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.3.3
 
 **Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
 
@@ -18,6 +18,8 @@ curl -fsSL https://raw.githubusercontent.com/XPro-Gamer-Rhine/R9-EQ-app/main/ins
 ```
 
 *(or [⬇︎ download the DMG](../../releases/latest) — see [Install](#install) for the extra steps it needs)*
+
+**🌐 Website: [xpro-gamer-rhine.github.io/R9-EQ-app](https://xpro-gamer-rhine.github.io/R9-EQ-app/)**
 
 ---
 
@@ -82,7 +84,8 @@ engineering research.
 - **Depth modelling** — front/rear driver placement shaped like physical stacks.
 - **Live preview** — apply the virtual driver to the real EQ and listen.
 - **IEM Library — load a real IEM** — search 1,000+ real in-ear monitors (data
-  derived from crinacle.com's IEM Ranking List) and rebuild any model's actual
+  derived from crinacle.com's IEM Ranking List, plus a gold-badged **S+ High-End
+  tier** of flagship models curated from Headfonics/Headphonesty coverage) and rebuild any model's actual
   driver setup with one click, voiced by its published sound signature and
   technical grade. Fully editable afterwards.
 - **First-open tour** — the studio walks you through itself the first time you
