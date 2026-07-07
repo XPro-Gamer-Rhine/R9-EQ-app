@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.3.3
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.4.0
 
 **Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
 
@@ -59,6 +59,11 @@ Every theme applies to **both** the notch panel and the VDC window.
 
 ### Equalizer
 - **10-band graphic EQ** (32 Hz → 16 kHz), ±12 dB per band, with a global preamp.
+- **Advanced parametric mode (PRO)** — flip the PRO switch and every band gains
+  an editable frequency (20 Hz–20 kHz), Q (tension) and filter type: High Pass,
+  Low Shelf, Peak, High Shelf, Low Pass. A FabFilter-Pro-Q-style editor: drag
+  the colored per-band nodes on the response graph (horizontal = frequency,
+  vertical = gain), with per-band bypass — true RBJ biquads in the engine.
 - **Real-time, system-wide** — equalizes every app's output at once (browser,
   Music, Spotify, games, calls).
 - **Response-curve editor** — drag the live frequency curve directly, or use the
@@ -82,7 +87,12 @@ engineering research.
   Adding multiples of the same driver auto-staggers their voicing (the way real
   manufacturers bin and tune duplicate drivers).
 - **Depth modelling** — front/rear driver placement shaped like physical stacks.
-- **Live preview** — apply the virtual driver to the real EQ and listen.
+- **Driver Rack** — every driver is a linear rack channel with an on/off
+  checkbox, a 0–100% mix level, drag-to-reorder, and click-to-open full tuning.
+- **Live Preview** — keep the sound playing while you build: every add, remove,
+  mute or tuning edit re-voices the real EQ instantly.
+- **Save as EQ Preset** — one click saves the build's curve straight into the
+  panel's Profiles menu — no JSON round-trip.
 - **IEM Library — load a real IEM** — search 1,000+ real in-ear monitors (data
   derived from crinacle.com's IEM Ranking List, plus a gold-badged **S+ High-End
   tier** of flagship models curated from Headfonics/Headphonesty coverage) and rebuild any model's actual
