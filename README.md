@@ -9,7 +9,7 @@ kernel extensions, no third-party audio router in the signal path — and adds a
 one-of-a-kind **Virtual Driver Configuration** studio for designing and auditioning
 hybrid IEM/headphone driver stacks.
 
-> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.4.0
+> Created by **Rhineul Islam** · `com.rhine.EQ` · v0.5.0
 
 **Install — paste this into Terminal** (no security warnings, any Mac, macOS 14.4+):
 
@@ -74,6 +74,13 @@ Every theme applies to **both** the notch panel and the VDC window.
   (Harman IEM Target, IER-Z1R, IE 900, Blessing 3, U12t, Andromeda). The active
   preset is highlighted; any manual edit marks the curve as custom.
 - **Profiles** — save, name, switch, import and export your own EQ profiles.
+- **Community song presets** — share your EQ (10-band, PRO bands, even the
+  Virtual Driver build) for the song you're playing, anonymously — no login, no
+  personal data. Songs match by Artist + Title; up-vote others' presets, and an
+  **Auto-Load** toggle applies the top-voted community EQ whenever a matching
+  song starts. Syncs in the background every 4 hours.
+- **Floating Window mode** — detach the panel into an always-on-top window you
+  can drag anywhere (Theme menu → Layout → Floating Window).
 - **Per-app EQ** — System-wide mode, or Per-App mode that auto-loads a saved curve
   whenever a given app comes to the foreground.
 
